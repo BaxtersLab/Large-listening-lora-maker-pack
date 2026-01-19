@@ -1,0 +1,9 @@
+name: Large Listening LoRA Maker
+version: 1.0.0
+description: ComfyUI extension for audio refinement and tagging using dual Nexa CLI instances
+author: Baxter
+license: MIT
+dependencies:
+  - nexa-cli
+  - torch
+  - numpy
