@@ -5,6 +5,7 @@ from .nodes.AudioImprovementArbiterNode import AudioImprovementArbiterNode
 from .nodes.AudioPromptMutatorNode import AudioPromptMutatorNode
 from .nodes.AudioParamTunerNode import AudioParamTunerNode
 from .nodes.AudioLoggerNode import AudioLoggerNode
+from .nodes.NexaPopupLoaderNode import NexaPopupLoaderNode
 
 NODE_CLASS_MAPPINGS = {
     "AudioTagExtractorNodeA": AudioTagExtractorNodeA,
@@ -14,6 +15,7 @@ NODE_CLASS_MAPPINGS = {
     "AudioPromptMutatorNode": AudioPromptMutatorNode,
     "AudioParamTunerNode": AudioParamTunerNode,
     "AudioLoggerNode": AudioLoggerNode,
+    "NexaPopupLoaderNode": NexaPopupLoaderNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -24,4 +26,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "AudioPromptMutatorNode": "Audio Prompt Mutator",
     "AudioParamTunerNode": "Audio Param Tuner",
     "AudioLoggerNode": "Audio Logger",
+    "NexaPopupLoaderNode": "Nexa Popup Loader",
 }
